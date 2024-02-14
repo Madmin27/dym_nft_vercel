@@ -1,36 +1,94 @@
+   <style>
+        /* Background and gradients */
+        html {
 
-<style>
-    }
-    button {
-        background: none;
-        border: none;
-        padding: 0;
-        font-family: 'Fraunces', sans-serif;
-        font-size: 24px;
-        font-weight: bold;
-        cursor: pointer;
-        color: #001f3f;
-    }
+        }
+        body {
+            background: linear-gradient(to right, #26133a, #d6a2e8);
+            background-size: cover;
+            #display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            #height: 100vh;
+            margin: 0;
+            font-family: sans-serif;
+        }
+        /* Button container styling */
+        .button-container {
+            border: none; /* Remove border */
+            display: flex;
+			flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px; /* Add gap between buttons */
+			margin-top: 1%;
+            margin-top: 1%;
+        }
 
-    .separator {
-        margin: 0 10px;
-    }
+        /* Heading styling */
+        .heading {
+            color: #fff;
+            font-size: 30px;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow */
+            text-align: center;
+			max-width: 660px;
+			width: 100%;
+        }
 
-    .heading {
-        font-family: 'Fraunces', sans-serif;
-        font-size: 40px;
-        font-weight: bold;
-        color: #001f3f;
-        margin-bottom: 10px;
-    }
-</style>
+        /* Button styling */
+        button {
+            font-family: 'Fraunces', sans-serif;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            color: #fff;
+            background-color: transparent;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add box shadow */
+            transition: all 0.2s ease-in-out;
+        }
 
-<div class="button-container" style="border: 5px solid; display: flex;  justify-content: center;">
-    <div class="heading">Minenn DYMENSİON ROLLAPP</div>
-    <button onclick="window.location.href='https://fl.dym.fyi/rollapp/corenodekutlu_8127585-1'">Rollapp</button>
-    <span class="separator">⟡⟡</span>
-    <button onclick="window.location.href='https://dym-faucet3.vercel.app/'">Faucet</button>
-    <span class="separator">⟡</span>
+        button:hover {
+            transform: scale(1.1); /* Add hover effect */
+            background-color: rgba(255, 255, 255, 0.2); /* Add subtle hover background */
+        }
+
+        /* Separator styling */
+        .separator {
+            font-size: 24px;
+            color: #fff;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow */
+        }
+
+        /* iframe styling */
+        iframe {
+            border: none; /* Remove border */
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Add subtle box shadow */
+            border-radius: 10px; /* Add rounded corners */
+            overflow: hidden; /* Prevent content from overflowing */
+        }
+
+        /* Ensure iframe stays within viewport and has some margin */
+        iframe {
+            max-width: 80%;
+            max-height: 70vh;
+            margin: 20px;
+        }
+		.css-enjs8e	{
+			background-color: #2d1941;
+		}
+    </style>
+
+<div class="button-container">
+  <div class="heading">The Magic of The Lilac Dymension</div>
+  <div class="heading" >
+   <button onclick="window.location.href='https://fl.dym.fyi/rollapp/corenodekutlu_8127585-1'">Rollapp</button>
+   <span class="separator">⟡⟡</span>
+  <button onclick="window.location.href='https://dym-faucet3.vercel.app/'">Faucet</button>
+  </div>
 </div>
 
 <div style="display: flex; justify-content: center;">
