@@ -1,8 +1,4 @@
-   <style>
-        /* Background and gradients */
-        html {
-
-        }
+    <style>
         body {
             background: linear-gradient(to right, #26133a, #d6a2e8);
             background-size: cover;
@@ -14,7 +10,6 @@
             margin: 0;
             font-family: sans-serif;
         }
-        /* Button container styling */
         .button-container {
             border: none; /* Remove border */
             display: flex;
@@ -25,8 +20,6 @@
 			margin-top: 1%;
             margin-top: 1%;
         }
-
-        /* Heading styling */
         .heading {
             color: #fff;
             font-size: 30px;
@@ -35,8 +28,6 @@
 			max-width: 660px;
 			width: 100%;
         }
-
-        /* Button styling */
         button {
             font-family: 'Fraunces', sans-serif;
             font-size: 18px;
@@ -50,37 +41,24 @@
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add box shadow */
             transition: all 0.2s ease-in-out;
         }
-
         button:hover {
             transform: scale(1.1); /* Add hover effect */
             background-color: rgba(255, 255, 255, 0.2); /* Add subtle hover background */
         }
-
-        /* Separator styling */
-        .separator {
-            font-size: 24px;
-            color: #fff;
-            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow */
-        }
-
-        /* iframe styling */
-        iframe {
-            border: none; /* Remove border */
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Add subtle box shadow */
-            border-radius: 10px; /* Add rounded corners */
-            overflow: hidden; /* Prevent content from overflowing */
-        }
-
-        /* Ensure iframe stays within viewport and has some margin */
-        iframe {
-            max-width: 80%;
-            max-height: 70vh;
-            margin: 20px;
-        }
-		.css-enjs8e	{
-			background-color: #2d1941;
+		.frame-container
+		{
+			display: flex;
+			align-items: center;
+            justify-content: center;
+			padding: 1px;
+		}
+		.frame
+		{
+			padding: 3px;			
 		}
     </style>
+</head>
+<body>
 
 <div class="button-container">
   <div class="heading">The Magic of The Lilac Dymension</div>
@@ -91,12 +69,22 @@
   </div>
 </div>
 
-<div style="display: flex; justify-content: center;">
-<iframe
+<div class="frame-container">
+    <div class="frame">  
+  <iframe
     src="https://embed.ipfscdn.io/ipfs/bafybeigdie2yyiazou7grjowoevmuip6akk33nqb55vrpezqdwfssrxyfy/erc1155.html?contract=0x4dFb9CD79b052057AA8B47a774CfEDaDC50f6718&chain=%7B%22name%22%3A%22corenodekutlu_8127585-1%22%2C%22chain%22%3A%22%22%2C%22rpc%22%3A%5B%22https%3A%2F%2Fevm.minenn.com.tr%2F%22%5D%2C%22nativeCurrency%22%3A%7B%22symbol%22%3A%22ktl%22%2C%22name%22%3A%22ktl%22%2C%22decimals%22%3A18%7D%2C%22shortName%22%3A%22corenodekutlu8127585-1%22%2C%22chainId%22%3A8127585%2C%22testnet%22%3Atrue%2C%22slug%22%3A%22corenodekutlu8127585-1%22%2C%22icon%22%3A%7B%22url%22%3A%22%22%2C%22width%22%3A50%2C%22height%22%3A50%2C%22format%22%3A%22%22%7D%7D&clientId=2265d8dcfe88a8beb077b4c725026a25&tokenId=0&theme=light&primaryColor=purple"
-    width="600px"
+    width="300px"
     height="600px"
     style="max-width:100%;"
-    frameborder="0">
-</iframe>
+    frameborder="0"></iframe>
+</div>
+<div class="frame">    
+  <iframe
+    src="https://embed.ipfscdn.io/ipfs/bafybeicd3qfzelz4su7ng6n523virdsgobrc5pcbarhwqv3dj3drh645pi/?contract=0x0CaFbE08C914434cBa22209619462A8E43c57766&chain=%7B%22name%22%3A%22corenodekutlu_8127585-1%22%2C%22chain%22%3A%22%22%2C%22rpc%22%3A%5B%22https%3A%2F%2Fevm.minenn.com.tr%2F%22%5D%2C%22nativeCurrency%22%3A%7B%22symbol%22%3A%22ktl%22%2C%22name%22%3A%22ktl%22%2C%22decimals%22%3A18%7D%2C%22shortName%22%3A%22corenodekutlu8127585-1%22%2C%22chainId%22%3A8127585%2C%22testnet%22%3Atrue%2C%22slug%22%3A%22corenodekutlu8127585-1%22%2C%22icon%22%3A%7B%22url%22%3A%22%22%2C%22width%22%3A50%2C%22height%22%3A50%2C%22format%22%3A%22%22%7D%7D&clientId=2265d8dcfe88a8beb077b4c725026a25&theme=light&primaryColor=purple"
+    width="300px"
+    height="600px"
+    style="max-width:100%;"
+    frameborder="0"></iframe>
+</div>
+
 </div>
